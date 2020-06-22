@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <style>
+div.a {
+	text-align: center;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-box {
+   height: 50px;
+     
+}
+
+.organizacao {
+   height: 250px;
+     
+}
+  </style>
+  <div class="organizacao">
+    </div>
+      <div class="flex-box">
+      <img src="sonic.gif">
+    </div>
+    <div class="flex-box container-box">
+      <div>
+        <input type="hidden" name="in" value="USD"/><br>
+      </div>
+      <div>
+    <input style="width:60px;" id="quantia" type="number" min="0" step="0.01" value="1.00"/> 
+    <select name="moedas" id="moedas">
+      <option name="in" value="USD">Dolar</option>
+      <option name="in" value="BRL">Real</option>
+      <option name="in" value="EUR">Euro</option>
+      <option name="in" value="GBP">Libra</option>
+      <option name="in" value="JPY">Yen</option>
+      <option name="in" value="KRW">Won</option>
+      <option name="in" value="RUB">Rublo</option>
+      <option name="in" value="CNY">Yuan</option>
+    </select>
+    <button onclick="convert();">Vale</button>
+    <span id="resultado">0,00</span>
+    <select name="moedas" id="moedas">
+      <option name="out" value="BRL">Real</option>
+      <option name="out" value="USD">Dolar</option>     
+      <option name="out" value="EUR">Euro</option>
+      <option name="out" value="GBP">Libra</option>
+      <option name="out" value="JPY">Yen</option>
+      <option name="out" value="KRW">Won</option>
+      <option name="out" value="RUB">Rublo</option>
+      <option name="out" value="CNY">Yuan</option>
+    </select>
+      </div>
+  </body>
+</html>
