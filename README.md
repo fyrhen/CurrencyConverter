@@ -1,3 +1,3 @@
-# Conversor
+# Conversor de Moedas
 
-<a1> Conversor de Moedas <a1>
+Projeto final de semestre
