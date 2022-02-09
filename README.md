@@ -1,6 +1,6 @@
-# Conversor de Moedas
+# Currency converter
 
-Projeto final de semestre para a matéria de Construção de Software para Web
+Final project of the semester for "Construção de Software Web"
 
 <p align="center">
   <img src="conversor.gif" alt="animated" />
